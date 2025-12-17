@@ -1,5 +1,3 @@
-:- use_module(library(readutil)).
-
 neg(neg(L), L) :- !.
 neg(L, neg(L)).
 
